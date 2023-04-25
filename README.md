@@ -29,13 +29,13 @@ def save_event(event):
     return
 ```
 
-to expose the function save_event function in the events.py file run the following command;
+to expose the function save_event function in the events.py file run the following command:
 
 ```
 fal-serverless function serve ./fal-events/src/events.py save_event --alias save
 ```
 
-to expose the buenavista server run the following command
+to expose the buenavista server run the following command:
 
 ```
 fal-serverless function serve ./fal-events/src/events.py query --alias query
