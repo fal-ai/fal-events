@@ -53,6 +53,8 @@ fal-serverless key generate
 
 finally, connect to your endpoint exposing the buenavista endpoint:
 
+```
 presto --server "https://1714827-query.gateway.alpha.fal.ai?fal_key_id=xxx&fal_key_secret=xxx"
+```
 
 4. you can use this url to connect your duckdb instance your favorite BI tool
